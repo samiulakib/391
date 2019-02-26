@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<style>
+
+h2{
+    font-family: cursive;
+    text-align: center;
+    color: darkred;
+}
+h3{    
+    color: #929a35;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+body{    
+    background: url("abstract.jpg");
+    background-size: 80%;
+    background-attachment: fixed;   
+    background-color: #ddd;
+}
+
+}
+p{
+    color: #abd08c;
+    text-align: center;
+}
+ul{
+    list-style-type: circle;
+    color: cornsilk;    
+}
+a,li{
+    color: darkseagreen;
+}
+span{
+    color: chartreuse;
+}
+<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+<link href="style.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=La Belle Aurore' rel='stylesheet'>
+
+<meta charset="UTF-8">
+</style>
+
+<head>
+    <title>My Profile</title>
+</head>
+<script type="text/javascript">
+    function myFunction() {
+        var x = document.lastModified;
+        document.getElementById("modDate").innerHTML = "Page Last modified :"+x;
+		var y = window.location.pathname;
+        document.getElementById("locate").innerHTML = "Page Location :"+y;
+    }
+</script>
+
+<body onload="myFunction()">
+
+    <div>
+        <h2>SAMIUL AKIB</h2>
+        <img src="https://www.google.com/search?hl=en&biw=1034&bih=620&tbm=isch&sa=1&ei=G5JfXMquIo7yrAHG25-gDw&q=samiul+akib&oq=samiul+akib&gs_l=img.3...0.0..3926...0.0..0.0.0.......1......gws-wiz-img.rxpH3NKQfuI#imgrc=Kvk8-elbg0N9GM:" / alt="My Picture">
+        <p>Hi, I'm MD SAMIUL AKIB. An undergrade student.Currently i am studying in brac university.</br>
+        this is my last semester .Hope everything will go good.</p>
+        <h3>Overview Of The Page Content:</h3>
+        <br/>
+        <ul>
+            <li><a href="#Edu">Educational Background</a></li>
+            <li><a href="#Hobbies">Hobbies</a></li>
+            <li><a href="#FavMov">Favourite Movies</a></li>
+            <li><a href="#FavBook">Favourite Books</a></li>
+        </ul>
+        <br/>
+		<h3>Favourite Quote</h3>
+		
+		<p><strong>Colleen Hoover:</strong> Just keep swimming </p>
+		
+        <h3 id="Edu">Educational Background</h3>
+  
+	
+
+		<tr>
+			<td><strong>School: </strong></td>
+			<td>Rangpur Zilla School,Rangpur</td>
+		</tr>
+		<tr>
+			<td><strong>College: </strong></td>
+			<td>Rangpur govt college </td>
+		</tr>
+		<tr>
+			<td><strong>University: </strong></td>
+			<td>BRAC University</td>
+		</tr>
+		</table>
+		
+        <h3 id="Hobbies">Hobbies</h3>
+        <p style="text-align: inherit;">
+           I love to travel,I like playing and I like to read..<br/>
+           
+        </p>
+        <ul>
+            <li><a href="https://www.getyourguide.com/-n87/?cmp=ga&campaign_id=1393740895&adgroup_id=60278808711&target_id=kwd-475680819976&loc_physical_ms=9069450&match_type=b&ad_id=334320034768&keyword=%2Bbangladesh%20%2Btraveling&ad_position=1t1&feed_item_id=&placement=&partner_id=CD951&gclid=Cj0KCQiAwc7jBRD8ARIsAKSUBHI-8-hLOxJDe63n7yTYsDZBK4omdBoTANOR76-wkqvgzwTw3AqyXNsaAigUEALw_wcB" target="_blank">travelingSite</a></li>
+            <li><a href="http://danbrown.com/the-davinci-code/" target="_blank">Book</a></li>
+        </ul>
+        <br/>
+        <h3 id="FavMov">Favourite Movies</h3>
+        <ul>
+            <li><a href="http://www.imdb.com/title/tt0068646/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=0X2R5GPPH8X3HJ0ZNVSH&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_2" target="_blank">The Godfather (1972)</a></li>
+            <li><a href="http://www.imdb.com/title/tt0071562/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=0X2R5GPPH8X3HJ0ZNVSH&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_3" target="_blank">The Godfather: Part II (1974)</a></li>
+            <li><a href="http://www.imdb.com/title/tt0050083/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=0X2R5GPPH8X3HJ0ZNVSH&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_5" target="_blank">12 Angry Men (1957)</a></li>
+            <li><a href="http://www.imdb.com/title/tt0073486/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=0X2R5GPPH8X3HJ0ZNVSH&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_16" target="_blank">One Flew Over the Cuckoo's Nest (1975)</a></li>
+            <li><a href="http://www.imdb.com/title/tt0110357/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e31d89dd-322d-4646-8962-327b42fe94b1&pf_rd_r=0X2R5GPPH8X3HJ0ZNVSH&pf_rd_s=center-1&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_tt_47" target="_blank">The Lion King (1994)</a></li>
+        </ul>
+        <h3 id="FavBook">Favourite Books</h3>
+        <ul>
+            <li>The Prophet - Kahlil Zibran</li>
+            <li>Metamorphosis - Franz Kafka</li>
+            <li>Chader Pahar - Bibhutivushon Banarjee</li>
+            <li>Deyal - Humayun Ahmed</li>
+            <li>Ongkar - Ahmed Chofa</li>
+        </ul>
+    </div>
+    <span id="modDate"></span><br/>
+	<span id="locate"></span>
+    
+    
+</body>
+
+
+</html>
